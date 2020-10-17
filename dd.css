@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(Gall/op7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+nav{
+    background:rgba(250, 26, 145,0.4);
+    height: 70px;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    left: 50%;
+    top:20px;
+}
+
+ul li{
+    float: left;
+    width: 120px;
+    line-height: 20px;
+
+    
+}
+ul li a{
+    color: rgb(1, 3, 5);
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: ghostwhite;
+    
+}
+ul li ul{
+    background-color: rgb(236, 15, 207) ;
+    position: absolute;
+    border-radius: 8px;
+   
+    
+}
+ul li ul li{
+    float: none;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+}
+b{
+    font-size: 40px;
+    font-variant: small-caps;
+    text-decoration: underline;
+    color:white;
+    text-shadow: 2px 2px 2px deeppink;
+}
